@@ -1,20 +1,21 @@
-# Getting Started with Minecraft Pi
+# Minecraft Pi für Anfänger
 
-Minecraft is a popular sandbox open-world building game. A free version of Minecraft is available for the Raspberry Pi; it also comes with a programming interface. This means you can write commands and scripts in Python code to build things in the game automatically. It's a great way to learn Python!
+Minecraft is ist ein beliebtes Open-World Computerspiel. Ähnlich wie mit Lego kann man verschiedene Sachen aus Blöcken bauen. 
+Auf dem Raspberry Pi gibt es eine kostenlose Version von Minecraft, die man auch programmieren kann. Man kann alsi Kommandos und kripte in Minecraft einbauen, um Sachen automatisch zu bauen. Ein guter Weg, um Python zu lernen!
 
 ![Minecraft Pi banner](images/minecraft-pi-banner.png)
 
-## Run Minecraft
+## Minecraft starten
 
-To run Minecraft Pi, open it from the desktop menu or type `minecraft-pi` in the terminal.
+Um Minecraft zu starten, öffne es aus dem Desktop Menü oder tippe `minecraft-pi` im Terminal.
 
 ![](images/menu.png)
 
-When Minecraft Pi has loaded, click on **Start Game**, followed by **Create new**. You'll notice that the containing window is offset slightly. This means to drag the window around you have to grab the title bar behind the Minecraft window.
+Wenn Minecraft Pi geladen ist, klicke auf **Start Game** und danach **Create new**. 
 
 ![](images/mcpi-game.png)
 
-You are now in a game of Minecraft! Go walk around, hack things, and build things!
+Du bist jetzt in der Minecraft Welt und kannst dich dort bewegen, herumlaufen und Sachen bauen!
 
 Use the mouse to look around and use the following keys on the keyboard:
 
