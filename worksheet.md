@@ -17,35 +17,39 @@ Wenn Minecraft Pi geladen ist, klicke auf **Start Game** und danach **Create new
 
 Du bist jetzt in der Minecraft Welt und kannst dich dort bewegen, herumlaufen und Sachen bauen!
 
-Use the mouse to look around and use the following keys on the keyboard:
+Benutze die Maus, um dich umzusehen, und die folgenden Tasten:
 
-| Key          | Action               |
+| Taste          | Aktion               |
 | :---:        | :-----:              |
-| W            | Forward              |
-| A            | Left                 |
-| S            | Backward             |
-| D            | Right                |
-| E            | Inventory            |
-| Space        | Jump                 |
-| Double Space | Fly / Fall           |
-| Esc          | Pause / Game menu    |
-| Tab          | Release mouse cursor |
+| W            | Vorwärts              |
+| A            | Links                 |
+| S            | Zurück             |
+| D            | Rechts                |
+| E            | Inventar            |
+| Leertaste    | Springen                 |
+| 2x Leertaste | Fliegen / Fallen           |
+| Esc          | Pause / Spielmenü    |
+| Tab          | Mauszeiger loslassen |
 
-You can select an item from the quick draw panel with the mouse's scroll wheel (or use the numbers on your keyboard), or press `E` and select something from the inventory.
+Mit dem Mausrad kann man etwas aus der Schnellauswahl auswählen (oder auch mit Zahlen auf der Tastatur), oder drücke `E` und wähle etwas aus dem Inventar aus.
 
 ![](images/mcpi-inventory.png)
 
-You can also double tap the space bar to fly into the air. You'll stop flying when you release the space bar, and if you double tap it again you'll fall back to the ground.
+Zweimaliges Drücken der Leertaste macht, dass du durch die Luft fliegst. Du hörst auf zu fliegen, wenn du die Leertaste loslässt, und wenn du sie noch zweimal drückst, fällst du wieder auf den Boden.
 
 ![](images/mcpi-flying.png)
 
-With the sword in your hand, you can click on blocks in front of you to remove them (or to dig). With a block in your hand, you can use right click to place that block in front of you, or left click to remove a block.
+Mit dem Schwert ind er Hand kannst du auf Blöcke klicken, um die zu entfernen (oder um zu graben). Mit eienm Block in der Hand kannst du
+per Rechtsklick den Block vor dir absetzen, oder ihn mit einem Linksklick entfernen.
 
-## Use the Python programming interface
 
-With Minecraft running, and the world created, bring your focus away from the game by pressing the `Tab` key, which will free your mouse. Open Python 3 from the application menu and move the windows so they're side-by-side.
+## Benutze Python in Minecraft
 
-You can either type commands directly into the Python window or create a file so you can save your code and run it again another time.
+Während Minecraft läuft, drücke auf die `Tab` Taste, um den Fokus vom SPiel zu nehmen. Öffne Python 3 aus dem ANwendungsmenü und setze das Fenster neben das Spielfenster.
+
+Du kannst nun entweder direkt Kommandos in Python eingeben oder eine Datei erzeugen, so daß du den Code immer wieder laufen lassen kannst. 
+
+Wenn Du eine Datei erzeugen willst, `File > New window` und `File > Save`. 
 
 If you want create a file, go to `File > New window` and `File > Save`. You'll probably want to save this in your home folder or a new project folder.
 
