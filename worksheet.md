@@ -1,7 +1,7 @@
 # Minecraft Pi für Anfänger
 
 Minecraft is ist ein beliebtes Open-World Computerspiel. Ähnlich wie mit Lego kann man verschiedene Sachen aus Blöcken bauen. 
-Auf dem Raspberry Pi gibt es eine kostenlose Version von Minecraft, die man auch programmieren kann. Man kann alsi Kommandos und kripte in Minecraft einbauen, um Sachen automatisch zu bauen. Ein guter Weg, um Python zu lernen!
+Auf dem Raspberry Pi gibt es eine kostenlose Version von Minecraft, die man auch programmieren kann. Man kann also Kommandos und Skripte in Minecraft einbauen, um Sachen automatisch zu bauen. Ein guter Weg, um Python zu lernen!
 
 ![Minecraft Pi banner](images/minecraft-pi-banner.png)
 
@@ -66,9 +66,10 @@ Wenn du die Kommandos direkt eingibst, drücke einfach `Enter` nach jeder Zeile.
 
 ![](images/helloworld.gif)
 
-### Finde herasu, wo du bist
+### Finde heraus, wo du bist
 
 Um herauszufinden, wo du bist, tippe:
+
 ```python
 pos = mc.player.getPos()
 ```
@@ -112,14 +113,15 @@ Gehe zurück in dein MInecraft Fenster und drehe die Maus, bis du den Block dire
 
 ![](images/mcpi-setblock.png)
 
-The arguments passed to `set block` are `x`, `y`, `z` and `id`. The `(x, y, z)` refers to the position in the world (we specified one block away from where the player is standing with `x + 1`) and the `id` refers to the type of block we'd like to place. `1` is stone.
+Die Argumente, die du `set block` übergibst, sind  `x`, `y`, `z` und `id`.
+Die Koordinaten `(x, y, z)` geben die Position in der Welt an (mit `x + 1` haben wir den Block relativ zum Spieler gesetzt) und die `id` sagt aus, welchen Block wir setzen wollen. `1` ist Stein.
 
-Other blocks you can try:
+Andere Blocks, die man probieren kann:
 
 ```
-Air:   0
-Grass: 2
-Dirt:  3
+Luft:   0
+Gras: 2
+Staub:  3
 ```
 
 Now with the block in sight, try changing it to something else:
