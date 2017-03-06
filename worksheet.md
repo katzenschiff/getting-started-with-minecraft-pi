@@ -49,39 +49,39 @@ Während Minecraft läuft, drücke auf die `Tab` Taste, um den Fokus vom SPiel z
 
 Du kannst nun entweder direkt Kommandos in Python eingeben oder eine Datei erzeugen, so daß du den Code immer wieder laufen lassen kannst. 
 
-Wenn Du eine Datei erzeugen willst, `File > New window` und `File > Save`. 
+Wenn Du eine Datei erzeugen willst, benutze `File > New window` und `File > Save`. Speichere die Datei in deinem Homeverzeichnis.
 
-If you want create a file, go to `File > New window` and `File > Save`. You'll probably want to save this in your home folder or a new project folder.
-
-Start by importing the Minecraft library, creating a connection to the game and testing it by posting the message "Hello world" to the screen:
+Importiere zuerst die Minecraft Biliothek. Dadurch entsteht eine Verbindung zum Spiel. Teste diese, indem du die Nachricht "Hallo Welt" auf den Bildschirm schreibst:
 
 ```python
 from mcpi.minecraft import Minecraft
 
 mc = Minecraft.create()
 
-mc.postToChat("Hello world")
+mc.postToChat("Hallo Welt")
 ```
 
-If you're entering commands directly into the Python window, just hit `Enter` after each line. If it's a file, save with `Ctrl + S` and run with `F5`. When your code runs, you should see your message on screen in the game.
+Wenn du die Kommandos direkt eingibst, drücke einfach `Enter` nach jeder Zeile. Wenn es eine Datei ist, speichere dein SKript mit `Ctrl + S` und lasse sie mit `F5` laufen. Wenn das Skript läuft, solltest du die Nachricht auf dem Bildschirm sehen.
+
 
 ![](images/helloworld.gif)
 
-### Find your location
+### Finde herasu, wo du bist
 
-To find your location, type:
-
+Um herauszufinden, wo du bist, tippe:
 ```python
 pos = mc.player.getPos()
 ```
 
 `pos` now contains your location; access each part of the set of coordinates with `pos.x`, `pos.y` and `pos.z`.
+`pos` speichert jetzt deinen Aufenthaltsort. DU kannst darauf mit den Koordinaten `pos.x`, `pos.y` and `pos.z` zugreifen.
 
-Alternatively, a nice way to get the coordinates into separate variables is to use Python's unpacking technique:
+Du kannst sie auch gleich in die Variablen x, y und z schreiben.
 
 ```python
 x, y, z = mc.player.getPos()
 ```
+
 
 Now `x`, `y`, and `z` contain each part of your position coordinates. `x` and `z` are the walking directions (forward/back and left/right) and `y` is up/down.
 
