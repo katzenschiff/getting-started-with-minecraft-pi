@@ -83,33 +83,32 @@ x, y, z = mc.player.getPos()
 ```
 
 
-Now `x`, `y`, and `z` contain each part of your position coordinates. `x` and `z` are the walking directions (forward/back and left/right) and `y` is up/down.
+Jetzt stehen in `x`, `y`, und `z` die jeweiigen Positionskoordinaten. `x` und `z` sind deine Laufrichtungen (vorwärts/rückwärts) und links/rechts) und `y` ist hoch/runter.
 
-Note that `getPos()` returns the location of the player at the time, and if you move position you have to call the function again or use the stored location.
+Mit `getPos()` bekommst du die Position deines Spielers zu einer bestimmten Zeit. Wenn Du dich danach bewegst, musst du die FUnktion noch einmal aufrufen.
 
-### Teleport
+### Teleportieren
 
-As well as finding out your current location you can specify a particular location to teleport to.
+Du kannst dich auch an einen bestimmten Ort teleportieren.
 
 ```python
 x, y, z = mc.player.getPos()
 mc.player.setPos(x, y+100, z)
 ```
 
-This will transport your player to 100 spaces in the air. This will mean you'll teleport to the middle of the sky and fall straight back down to where you started.
+Dieser Befehl setzt dich 100 Schritte hoch in die Luft. Das heißt, du wirst mitten im Himmel abgesetzt und fällst dann herunter auf deinen Ausgangspunkt. Teleportieren dich auch woanders hin!
 
-Try teleporting to somewhere else!
+### Setze einen Block
 
-### Set block
-
-You can place a single block at a given set of coordinates with `mc.setBlock()`:
+Mit `mc.setBlock()` kannst du einen einzelnen Block auf eine bestimmte Position setzen:
 
 ```python
 x, y, z = mc.player.getPos()
 mc.setBlock(x+1, y, z, 1)
 ```
 
-Now a stone block should appear beside where you're standing. If it's not immediately in front of you it may be beside or behind you. Return to the Minecraft window and use the mouse to spin around on the spot until you see a grey block directly in front of you.
+Neben dir sollte jetzt ein Steinblock auftauchen. Wenn er nicht direkt vor dir ist, ist er neben oder hinter dir. 
+Gehe zurück in dein MInecraft Fenster und drehe die Maus, bis du den Block direkt vor dir siehst.
 
 ![](images/mcpi-setblock.png)
 
