@@ -39,13 +39,13 @@ Zweimaliges Drücken der Leertaste macht, dass du durch die Luft fliegst. Du hö
 
 ![](images/mcpi-flying.png)
 
-Mit dem Schwert ind er Hand kannst du auf Blöcke klicken, um die zu entfernen (oder um zu graben). Mit eienm Block in der Hand kannst du
+Mit dem Schwert in der Hand kannst du auf Blöcke klicken, um sie zu entfernen (oder um zu graben). Mit eienm Block in der Hand kannst du
 per Rechtsklick den Block vor dir absetzen, oder ihn mit einem Linksklick entfernen.
 
 
 ## Benutze Python in Minecraft
 
-Während Minecraft läuft, drücke auf die `Tab` Taste, um den Fokus vom SPiel zu nehmen. Öffne Python 3 aus dem ANwendungsmenü und setze das Fenster neben das Spielfenster.
+Während Minecraft läuft, drücke auf die `Tab` Taste, um den Fokus vom SPiel zu nehmen. Öffne Python 3 aus dem Anwendungsmenü und setze das Fenster neben das Spielfenster.
 
 Du kannst nun entweder direkt Kommandos in Python eingeben oder eine Datei erzeugen, so daß du den Code immer wieder laufen lassen kannst. 
 
@@ -61,7 +61,7 @@ mc = Minecraft.create()
 mc.postToChat("Hallo Welt")
 ```
 
-Wenn du die Kommandos direkt eingibst, drücke einfach `Enter` nach jeder Zeile. Wenn es eine Datei ist, speichere dein SKript mit `Ctrl + S` und lasse sie mit `F5` laufen. Wenn das Skript läuft, solltest du die Nachricht auf dem Bildschirm sehen.
+Wenn du die Kommandos direkt eingibst, drücke einfach `Enter` nach jeder Zeile. Wenn es eine Datei ist, speichere dein Skript mit `Ctrl + S` und lasse es mit `F5` laufen. Wenn das Skript läuft, solltest du die Nachricht auf dem Bildschirm sehen.
 
 
 ![](images/helloworld.gif)
@@ -74,8 +74,7 @@ Um herauszufinden, wo du bist, tippe:
 pos = mc.player.getPos()
 ```
 
-`pos` now contains your location; access each part of the set of coordinates with `pos.x`, `pos.y` and `pos.z`.
-`pos` speichert jetzt deinen Aufenthaltsort. DU kannst darauf mit den Koordinaten `pos.x`, `pos.y` and `pos.z` zugreifen.
+`pos` speichert jetzt deinen Aufenthaltsort. Du kannst darauf mit den Koordinaten `pos.x`, `pos.y` and `pos.z` zugreifen.
 
 Du kannst sie auch gleich in die Variablen x, y und z schreiben.
 
@@ -84,9 +83,9 @@ x, y, z = mc.player.getPos()
 ```
 
 
-Jetzt stehen in `x`, `y`, und `z` die jeweiigen Positionskoordinaten. `x` und `z` sind deine Laufrichtungen (vorwärts/rückwärts) und links/rechts) und `y` ist hoch/runter.
+Jetzt stehen in `x`, `y`, und `z` die jeweiligen Positionskoordinaten. `x` und `z` sind deine Laufrichtungen (vorwärts/rückwärts und links/rechts) und `y` ist hoch/runter.
 
-Mit `getPos()` bekommst du die Position deines Spielers zu einer bestimmten Zeit. Wenn Du dich danach bewegst, musst du die FUnktion noch einmal aufrufen.
+Mit `getPos()` bekommst du die Position deines Spielers zu einer bestimmten Zeit. Wenn Du dich danach bewegst, musst du die Funktion noch einmal aufrufen.
 
 ### Teleportieren
 
@@ -109,14 +108,14 @@ mc.setBlock(x+1, y, z, 1)
 ```
 
 Neben dir sollte jetzt ein Steinblock auftauchen. Wenn er nicht direkt vor dir ist, ist er neben oder hinter dir. 
-Gehe zurück in dein MInecraft Fenster und drehe die Maus, bis du den Block direkt vor dir siehst.
+Gehe zurück in dein Minecraft Fenster und drehe die Maus, bis du den Block direkt vor dir siehst.
 
 ![](images/mcpi-setblock.png)
 
 Die Argumente, die du `set block` übergibst, sind  `x`, `y`, `z` und `id`.
 Die Koordinaten `(x, y, z)` geben die Position in der Welt an (mit `x + 1` haben wir den Block relativ zum Spieler gesetzt) und die `id` sagt aus, welchen Block wir setzen wollen. `1` ist Stein.
 
-Andere Blocks, die man probieren kann:
+Andere Blöcke, die man probieren kann:
 
 ```
 Luft:   0
