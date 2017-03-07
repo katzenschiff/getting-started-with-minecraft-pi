@@ -124,15 +124,17 @@ Gras: 2
 Staub:  3
 ```
 
-Now with the block in sight, try changing it to something else:
+Versuche den Block in ein anderes Material umzuwandeln:
 
 ```python
 mc.setBlock(x+1, y, z, 2)
 ```
 
-You should see the grey stone block change in front of your eyes!
+Der Block sollte sich vor deinen Augen verwandeln!
 
 ![](images/mcpi-setblock2.png)
+
+
 
 #### Block constants
 
